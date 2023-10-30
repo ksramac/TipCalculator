@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    >
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sam_dan_truong__rf4kuvghhu_unsplash"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip/Gratuity Calculator"/>
+
+    <EditText
+        android:id="@+id/meal_total"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Meal Total"
+        android:inputType="numberDecimal"/>
+    <EditText
+        android:id="@+id/tip_percentage"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Tip Percentage"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/calc_button"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate!"/>
+
+    <TextView
+        android:id="@+id/result_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter your meal total and the percent you would like to tip."/>
+
+</LinearLayout>
